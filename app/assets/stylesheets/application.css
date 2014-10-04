@@ -11,5 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require framework7
+ *= require framework7.themes
  *= require_self
  */
