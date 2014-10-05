@@ -1,6 +1,7 @@
 require 'net/http'
 require 'uri'
 require 'opentable_client'
+require 'googleplaces_client'
 
 class PagesController < ApplicationController
   def main
@@ -53,7 +54,14 @@ class PagesController < ApplicationController
     api = OpenTable::Client.new
     resp = api.restaurants(:city => "Chicago")
 
-    puts resp
+    gapi = GPlaceHelper::Client.new
+    
+    gresp = gapi.places('AIzaSyCbKRCRA1C8lID5aN5egL74vNT5IGn8ccc',
+                        params[:lat],
+                        params[:lon])
+
+    #puts place
+    #puts resp
 
     render 'get_result'
   end
