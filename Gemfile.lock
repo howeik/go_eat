@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/andreibondarev/uber.git
+  revision: 733dfaafc634b0489ac1889bb9b8b5c65bc50284
+  specs:
+    uber (0.0.1)
+      faraday_middleware
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,7 +53,13 @@ GEM
       coffee-rails (> 3.2.1)
       coffee-script (> 2.1)
       railties (> 3.1)
+    geocoder (1.2.5)
+    google_places (0.24.0)
+      httparty (~> 0.13.1)
     hike (1.2.3)
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.6.11)
     jbuilder (2.1.3)
       activesupport (>= 3.0.0, < 5)
@@ -60,6 +73,7 @@ GEM
     mime-types (2.3)
     minitest (5.4.2)
     multi_json (1.10.1)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -120,6 +134,8 @@ DEPENDENCIES
   faraday
   faraday_middleware
   framework7-rails
+  geocoder
+  google_places
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.6)
@@ -127,4 +143,5 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spring
   turbolinks
+  uber!
   uglifier (>= 1.3.0)
