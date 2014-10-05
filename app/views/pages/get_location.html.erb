@@ -1,9 +1,7 @@
-   <script>
+<h1>&nbsp;Eat<br>Some!</h1>
 
-    getLocation();
-
-    function insertParam(key1, value1, key2, value2)
-{
+<script>
+function insertParam(key1, value1, key2, value2) {
     key1 = encodeURI(key1); value1 = encodeURI(value1);
     key2 = encodeURI(key2); value2 = encodeURI(value2);
 
@@ -15,15 +13,17 @@
     document.location.search = kvp; 
 }
 
-    function getLocation() {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(showPosition);
-        } else { 
-            x.innerHTML = "Geolocation is not supported by this browser.";
-        }
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
     }
+}
 
-    function showPosition(position) {
-        insertParam("lat", position.coords.latitude, "lon", position.coords.longitude);
-    }
-    </script>
+function showPosition(position) {
+    insertParam("lat", position.coords.latitude, "lon", position.coords.longitude);
+}
+
+window.onload = window.getLocation();
+</script>

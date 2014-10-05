@@ -1,3 +1,94 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(//fonts.googleapis.com/css?family=Pacifico);
+
+body, html {
+	background: url(image_path('food.png'));
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+h1 {
+	margin-top: 190px;
+	font-family: 'Pacifico';
+	text-rendering: geometricPrecision;
+	font-size: 100px;
+	color: #fff;
+	text-shadow: 0px 0px 2px #fff, 0px 0px 9px #800;
+	line-height: 60px;
+	text-align: center;
+	-webkit-transform: rotate(-12deg);
+}
+
+h2 {
+	font-family: 'Pacifico';
+	text-rendering: geometricPrecision;
+	font-size: 20px;
+	color: #fff;
+	text-shadow: 0px 0px 1px #fff, 0px 0px 5px #800;
+	line-height: 18px;
+	text-align: center;
+	-webkit-transform: rotate(-12deg);
+}
+
+.topbar {
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	top:0;
+	position: fixed;
+	background-color: #b33;
+}
+
+button, .button {
+	float: left;
+	background-color: #b33;
+	box-shadow: 0px 5px 7px rgba(0,0,0,.3);
+	border: none;
+	border-radius: 4px;
+	width: 335px;
+	margin: 15px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	padding: 10px;
+	color: #FFF;
+	font-size: 30px;
+	font-family: 'Helvetica Neue';
+	font-weight: 900;
+	text-shadow: 0px 0px 1px #fff, 0px 0px 3px #600;
+	img {
+		width: 120px;
+	}
+}
+
+.container {
+	width: 375px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.square:first-of-type, .square:nth-of-type(2) {
+	margin-top: 90px;
+}
+.square {
+	position: relative;
+	width: 163px;
+	height: 163px;
+}
+form {
+	float: left;
+	position: relative;
+	width: 163px;
+	height: 163px;
+
+}
+.button.square {
+	margin-top: 15px;
+	padding: 0px;
+	text-align: center;
+}
