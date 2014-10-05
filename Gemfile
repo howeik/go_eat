@@ -29,6 +29,8 @@ gem 'spring',        group: :development
 gem 'faraday'
 gem 'faraday_middleware'
 
+gem 'google_places'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
