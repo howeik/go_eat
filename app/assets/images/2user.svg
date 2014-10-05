@@ -3,10 +3,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="500px" height="400px" viewBox="0 0 500 400" enable-background="new 0 0 500 400" xml:space="preserve">
-<circle fill="#FFFFFF" stroke="#B03030" stroke-width="10" stroke-miterlimit="10" cx="337" cy="105.333" r="66.667"/>
-<path fill="#FFFFFF" stroke="#B03030" stroke-width="10" stroke-miterlimit="10" d="M337,205.334
-	C235.333,205.334,203.667,272,203.667,272v33.333h266.667V272C470.334,272,438.666,205.334,337,205.334z"/>
-<circle fill="#FFFFFF" stroke="#B03030" stroke-width="10" stroke-miterlimit="10" cx="250" cy="133.333" r="66.667"/>
-<path fill="#FFFFFF" stroke="#B03030" stroke-width="10" stroke-miterlimit="10" d="M250,233.334
-	C148.333,233.334,116.667,300,116.667,300v33.333h266.667V300C383.334,300,351.666,233.334,250,233.334z"/>
+<circle fill="#FFFFFF" stroke="#B03030" stroke-width="10" stroke-miterlimit="10" cx="293.5" cy="105.333" r="66.667"/>
+<path fill="#FFFFFF" stroke="#B03030" stroke-width="10" stroke-miterlimit="10" d="M293.5,205.334
+	C191.833,205.334,160.167,272,160.167,272v33.333h266.667V272C426.834,272,395.166,205.334,293.5,205.334z"/>
+<circle fill="#FFFFFF" stroke="#B03030" stroke-width="10" stroke-miterlimit="10" cx="206.5" cy="133.333" r="66.667"/>
+<path fill="#FFFFFF" stroke="#B03030" stroke-width="10" stroke-miterlimit="10" d="M206.5,233.334
+	C104.833,233.334,73.167,300,73.167,300v33.333h266.667V300C339.834,300,308.166,233.334,206.5,233.334z"/>
 </svg>
