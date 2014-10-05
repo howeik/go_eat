@@ -1,5 +1,10 @@
 class PagesController < ApplicationController
 	def main
+		unless params.key? 'lat'
+			get_location
+			return
+		end
+
 		unless params.key? 'num_people'
 			get_num_people
 			return
@@ -11,6 +16,10 @@ class PagesController < ApplicationController
 		end
 
 		get_result
+	end
+
+	def get_location
+		render 'get_location'
 	end
 
 	def get_num_people
