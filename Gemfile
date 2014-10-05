@@ -31,6 +31,10 @@ gem 'faraday_middleware'
 
 gem 'google_places'
 
+gem 'uber', github: 'andreibondarev/uber'
+
+gem 'geocoder'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
