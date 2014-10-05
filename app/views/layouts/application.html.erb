@@ -37,15 +37,7 @@
     <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
   </head>
   <body>
-
-    <%= f7_app do %>
-      <!-- Left panel with reveal effect -->
-      <%= f7_panel :side => :left, :show => :reveal, :class => ['layout-dark'] %>
-      <!-- Views-->
-      <%= f7_views do %>
-        <%= yield %>
-      <% end %>
-    <% end %>
+    <%= yield %>
     <%= javascript_include_tag "application" %>
   </body>
 </html>
